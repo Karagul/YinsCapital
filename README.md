@@ -86,7 +86,7 @@ library('gridExtra')
 
 YinsCapital::DyPlot_Initial_with_100()
 YinsCapital::DyPlot_Initial_with_Return()
-YinsCapital::QQ_Comparison()
+temp = YinsCapital::QQ_Comparison(); temp$Grid
 
 ####################### BASIC FUNCTIONS #######################
 
