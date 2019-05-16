@@ -1,5 +1,18 @@
 # Official Quantitative and Statistical Software Package by Yin's Capital
 
+[![YinsCapital](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://yinscapital.com/research/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
+This is the library that I use to collect common machine learning algorithm I use for research project and industrial practice.
+
+<p align="center">
+  <img width="800" src="https://github.com/yiqiao-yin/YinsLibrary/blob/master/figs/HELLO2.gif">
+</p>
+<p align="center">
+	<img src="https://img.shields.io/badge/stars-30+-blue.svg"/>
+	<img src="https://img.shields.io/badge/license-CC0-blue.svg"/>
+</p>
+
 - Copyright @ Official quantitative and statistical software published by Yin's Capital. 
 - Contact: Yiqiao Yin
 - Email: Yiqiao.Yin@YinsCapital.com
@@ -7,7 +20,12 @@
 # Install
 
 ```
-ddf
+# Note: you must have these packages:
+# quantmod, plotly, shiny, shinysky, shinythemes, corrplot, forecast, xts, dygraphs, ggplot2, reshape2, gtools, reshape2, gtools, DT, rnn, plot3D, plotly, parcoords, quandprog, pROC, matrixcalc, XML, beepr, data.table, scales, fPortfolio, finreportr, knitrr, treemap, tidyquant, gridExtra
+# Please install them if you do not have them. 
+
+# Install Package: Yin's Capital (i.e. YinsCapital)
+devtools::install_github("yiqiao-yin/YinsCapital")
 ```
 
 # Usage
