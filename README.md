@@ -1,9 +1,9 @@
-# Official Quantitative and Statistical Software Package by Yin's Capital
+# YinsCapital
 
 [![YinsCapital](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://yinscapital.com/research/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-This is the library that I use to collect common machine learning algorithm I use for research project and industrial practice.
+This is official quantitative and statistical software package by Yin's Capital.
 
 <p align="center">
   <img width="800" src="https://github.com/yiqiao-yin/YinsLibrary/blob/master/figs/HELLO2.gif">
