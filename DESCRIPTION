@@ -1,0 +1,11 @@
+Package: YinsCapital
+Type: Package
+Title: Quantitative Money Management Packages
+Version: 0.1.0
+Author: Yiqiao Yin
+Maintainer: Yiqiao Yin <yiqiao.yin@yinscapital.com>
+Description: This package designs a series of machine learning algorithms for data scientist.
+License: GPL-2
+imports: quantmod, plotly, shiny, shinysky, shinythemes, corrplot, forecast, xts, dygraphs, ggplot2, reshape2, gtools, reshape2, gtools, DT, rnn, plot3D, plotly, parcoords, quandprog, pROC, matrixcalc, XML, beepr, data.table, scales, fPortfolio, finreportr, knitrr, treemap, tidyquant, gridExtra
+Encoding: UTF-8
+LazyData: true
