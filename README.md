@@ -70,8 +70,10 @@ getSymbols("AAPL"); ticker = AAPL
 YinsCapital::Basic_Plot(ticker,r_day_plot=0.2,end_day_plot=1)
 YinsCapital::Basic_Plot_Weekly(ticker,r_day_plot=0.2,end_day_plot=1)
 YinsCapital::Basic_Plot_Monthly(ticker,r_day_plot=0.2,end_day_plot=1)
-YinsCapital::BS_Algo(ticker,r_day_plot=0.2,end_day_plot=1,c.buy=-2,c.sell=+2,height=1,past.n.days=10,test.new.price=0)
-YinsCapital::BS_Algo_Chart(ticker,r_day_plot=0.2,end_day_plot=1,c.buy=-2,c.sell=+2,height=1,past.n.days=10,test.new.price=0)
+YinsCapital::BS_Algo(ticker,r_day_plot=0.2,end_day_plot=1,c.buy=-2,c.sell=+2,
+height=1,past.n.days=10,test.new.price=0)
+YinsCapital::BS_Algo_Chart(ticker,r_day_plot=0.2,end_day_plot=1,c.buy=-2,c.sell=+2,
+height=1,past.n.days=10,test.new.price=0)
 
 ####################### WATCH LSIT #######################
 
