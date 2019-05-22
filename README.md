@@ -40,7 +40,8 @@ There are the following categories:
 # In this script, let us
 # (1) download data for a designated stock, and
 # (2) run Yin's packages, i.e. YinsCapital
-# COPYRIGHT @ Yiqiao Yin
+# COPYRIGHT © Yiqiao Yin
+# COPYRIGHT © Yin's Capital
 
 # README:
 # Open a new clean RStudio.
