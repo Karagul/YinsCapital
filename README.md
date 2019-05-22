@@ -89,6 +89,12 @@ AutoViz <- YinsCapital::AutoViz_Portfolio(
   past_days = 300)
 ```
 
+
+| Command | Description |
+| --- | --- |
+| <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-1.PNG"> | List all new or modified files |
+| <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-2.PNG"> | Show file differences that haven't been staged |
+
 <p align="center">
   <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-1.PNG">
 </p>
