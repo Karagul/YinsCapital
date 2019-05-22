@@ -82,6 +82,31 @@ library('treemap')
 library('tidyquant')
 library('gridExtra')
 
+####################### AUTONOMOUS VISUALIZATION #######################
+AutoViz <- YinsCapital::AutoViz_Portfolio(
+  base_dollar = 100,
+  tickers = c("SPY","QQQ","AAPL","FB","AMZN"),
+  past_days = 300)
+```
+
+<p align="center">
+  <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-1.PNG">
+</p>
+
+<p align="center">
+  <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-2.PNG">
+</p>
+
+<p align="center">
+  <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-3.PNG">
+</p>
+
+<p align="center">
+  <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-4.PNG">
+</p>
+
+
+```
 ####################### VISUALIZATION #######################
 
 YinsCapital::DyPlot_Initial_with_100()
@@ -114,6 +139,14 @@ YinsCapital::ARMA_Fit_W(ticker, 10)
 YinsCapital::ARMA_Fit_M(ticker, 10)
 YinsCapital::ARMA_Fit_A(ticker, 10)
 
+```
+
+<p align="center">
+  <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-5.PNG">
+</p>
+
+
+```
 ####################### NATURAL LANGUAGE PROCESSING AND RNN #######################
 
 YinsCapital::RNN_Daily(ticker)
