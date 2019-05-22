@@ -89,15 +89,12 @@ AutoViz <- YinsCapital::AutoViz_Portfolio(
   past_days = 300)
 ```
 
-<p align="center">
-
 | Command | Description |
 | --- | --- |
-| <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-1.PNG"> | List all new or modified files |
-| <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-2.PNG"> | List all items |
-| <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-3.PNG"> | List all items |
-| <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-4.PNG"> | List all items |
-</p>
+| <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-1.PNG"> | Multivarious Stock Paths by *dygraph* |
+| <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-2.PNG"> | Cross-section Returns by *cloud()* function |
+| <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-3.PNG"> | Parallel Coordinates as Screener |
+| <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-4.PNG"> | Radial Columns Bart Plot to Visualize Quick Gainers |
 
 ```
 ####################### VISUALIZATION #######################
