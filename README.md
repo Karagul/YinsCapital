@@ -13,7 +13,8 @@ This is official quantitative and statistical software package by Yin's Capital.
 	<img src="https://img.shields.io/badge/license-CC0-blue.svg"/>
 </p>
 
-- Copyright @ Official quantitative and statistical software published by Yin's Capital. 
+- Copyright © Official quantitative and statistical software published by Yin's Capital.
+- Copyright © 2010 – 2019 Yiqiao Yin
 - Contact: Yiqiao Yin
 - Email: Yiqiao.Yin@YinsCapital.com
 
