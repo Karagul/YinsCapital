@@ -89,28 +89,15 @@ AutoViz <- YinsCapital::AutoViz_Portfolio(
   past_days = 300)
 ```
 
+<p align="center">
 
 | Command | Description |
 | --- | --- |
 | <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-1.PNG"> | List all new or modified files |
-| <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-2.PNG"> | Show file differences that haven't been staged |
-
-<p align="center">
-  <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-1.PNG">
+| <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-2.PNG"> | List all items |
+| <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-3.PNG"> | List all items |
+| <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-4.PNG"> | List all items |
 </p>
-
-<p align="center">
-  <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-2.PNG">
-</p>
-
-<p align="center">
-  <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-3.PNG">
-</p>
-
-<p align="center">
-  <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-4.PNG">
-</p>
-
 
 ```
 ####################### VISUALIZATION #######################
