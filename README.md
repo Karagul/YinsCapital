@@ -89,12 +89,12 @@ AutoViz <- YinsCapital::AutoViz_Portfolio(
   past_days = 300)
 ```
 
-| Command | Description |
+| Visualization | Description |
 | --- | --- |
-| <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-1.PNG"> | Multivarious Stock Paths by *dygraph* |
-| <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-2.PNG"> | Cross-section Returns by *cloud()* function |
-| <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-3.PNG"> | Parallel Coordinates as Screener |
-| <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-4.PNG"> | Radial Columns Bart Plot to Visualize Quick Gainers |
+| <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-1.PNG"> | Multivarious Stock Paths by *dygraph*: all stocks are based and initiated from the same value |
+| <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-2.PNG"> | Cross-section Returns by *cloud()* function: 3D visualization of multi-level bar plot in grid style |
+| <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-3.PNG"> | Parallel Coordinates as Screener: user can create a window and screen stocks according to factor-based strategies |
+| <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-4.PNG"> | Radial Columns Bart Plot to Visualize Quick Gainers: a quick visualization of top portfolio movers |
 
 ```
 ####################### VISUALIZATION #######################
