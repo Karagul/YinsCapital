@@ -6,7 +6,7 @@
 This is official quantitative and statistical software package by Yin's Capital.
 
 <p align="center">
-  <img width="800" src="https://github.com/yiqiao-yin/YinsLibrary/blob/master/figs/HELLO2.gif">
+  <img width="800" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/main.gif">
 </p>
 <p align="center">
 	<img src="https://img.shields.io/badge/stars-30+-blue.svg"/>
