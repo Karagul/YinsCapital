@@ -134,7 +134,7 @@ YinsCapital::ARMA_Fit_A(ticker, 10)
 ```
 
 <p align="center">
-  <img width="300" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-5.PNG">
+  <img width="500" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/AV-fig-5.PNG">
 </p>
 
 
