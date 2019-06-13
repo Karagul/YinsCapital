@@ -201,6 +201,45 @@ Screener <- YinsCapital::AI_Screener(tickers, threshold = 0.03)
 # Comment:
 # The above code will go through all stocks in the list and 
 # generate a list with predicted returns for a probability.
+```
+
+The above codes navigate through over 100 stocks and screen for the ones with the predicted return to be higher than threshold. In addition, I also share the following which includes a narrower pool of stocks to screen from.
+
+```
+###################### PERSONALIZED #######################
+
+# For myself, I tend to focus on large cap stocks with 
+# average day trading volumen more than 2 million shares
+# and recent RSI to be higher than 40. 
+# I would directly start with the following.
+
+# List for Selection
+# Source: I would navigate to https://y-yin.shinyapps.io/CENTRAL-INTELLIGENCE-PLATFORM/
+# and click on "break-out pattern"
+my_autocomplete_list <- c(
+  # All Indices
+  # DJIA
+  "AXP", "AAPL", "BA", "CVX", "CSCO",
+  "DIS", "XOM", "GE", "GS", "HD", "IBM", "INTC",
+  "JNJ", "JPM", "MCD", "MRK", "MSFT", "NKE",
+  "PFE", "PG", "UTX", "UNH",
+  "V", "WMT",
+  # QQQ
+  "QQQ", "AAPL", "AMZN", "MSFT",
+  "FB", "GOOGL", "INTC", "CSCO",
+  "NFLX", "NVDA", "CMCSA", "AMGN", "ADBE",
+  "TXN",
+  # XLF
+  "XLF", "JPM", "BAC", "WFC",
+  "USB", "GS", "AXP", "MS", "PNC",
+  "BLK", "SCHW", "BK", "AIG",
+  # SEMI-CONDUCTOR
+  "NVDA", "AMD", "AVGO",
+  "MCHP", "MXIM", "TXN", "ADI",
+  "XLNX", "MU")
+tickers <- my_autocomplete_list
+Screener <- YinsCapital::AI_Screener(tickers, threshold = 0.035)
+Screener$Final_Data
 
 ####################### FUNDAMENTALS #######################
 
