@@ -18,6 +18,6 @@ AI_Screener <- function(
   final_data <- final_data[order(as.numeric(as.character(final_data[, 2])), decreasing = TRUE), ]
   return(list(
     Screening_Process = screening_process,
-    Final_data = final_data
+    Final_Data = final_data
   ))
 } # End of function
