@@ -16,7 +16,7 @@ AI_Predictor <- function(
   closePrices <-do.call(merge, lapply(tickers, function(x) Cl(get(x))))
   cl_price <- closePrices[, 1]
   data <- data.frame(cbind(
-    Y = as.numeric(cl_price / lag(cl_price) - 1 > threshold),
+    Y = lag(as.numeric(cl_price / lag(cl_price) - 1 > threshold)),
     X = cbind(
       cl_price / lag(lag(cl_price)) - 1,
       cl_price / lag(lag(lag(cl_price))) - 1,
@@ -28,8 +28,7 @@ AI_Predictor <- function(
       cl_price / lag(lag(lag(lag( lag(lag(lag(lag( lag(cl_price) )))))))) - 1,
       cl_price / lag(lag(lag(lag( lag(lag(lag(lag( lag(lag(cl_price)) )))) )))) - 1,
       cl_price / lag(lag(lag(lag(lag(lag(lag(lag(lag(lag(lag(cl_price))))))))))) - 1
-    )
-  ))
+  )))
   data <- data.frame(na.omit(data))
   all <- data
   GBM_Result <- YinsLibrary::Gradient_Boosting_Machine_Classifier(
