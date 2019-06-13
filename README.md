@@ -6,7 +6,7 @@
 This is official quantitative and statistical software package by Yin's Capital. Artificial Intelligence (AI) is the logical extension of human will. At Yin's Capital, we investigate marketable securities through not only the lens of human experience but also by machine power to discover the undiscovered intrinsic value of securities.
 
 <p align="center">
-  <img width="500" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/maintitle.gif">
+  <img width="800" src="https://github.com/yiqiao-yin/YinsCapital/blob/master/figs/maintitle.gif">
 </p>
 <p align="center">
 	<img src="https://img.shields.io/badge/stars-30+-blue.svg"/>
