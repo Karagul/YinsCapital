@@ -20,10 +20,16 @@ This is official quantitative and statistical software package by Yin's Capital.
 
 # Install
 
+You must have the following packages.
+
 ```
 # Note: you must have these packages:
 # quantmod, plotly, shiny, shinysky, shinythemes, corrplot, forecast, xts, dygraphs, ggplot2, reshape2, gtools, reshape2, gtools, DT, rnn, plot3D, plotly, parcoords, quandprog, pROC, matrixcalc, XML, beepr, data.table, scales, fPortfolio, finreportr, knitrr, treemap, tidyquant, gridExtra
 # Please install them if you do not have them. 
+
+# Another prerequisite is Yin's Library Software Package:
+# Access here: https://github.com/yiqiao-yin/YinsLibrary
+# Please make sure you have it as well.
 
 # Install Package: Yin's Capital (i.e. YinsCapital)
 devtools::install_github("yiqiao-yin/YinsCapital")
