@@ -149,6 +149,59 @@ AI_Prediction = YinsCapital::AI_Predictor("AAPL", 0.03)
 AI_Prediction$Candidates_Recommendation; AI_Prediction$Conclusion
 Screener <- YinsCapital::AI_Screener(c("AAPL","FB","MSFT"), 0.03); Screener$Final_Data
 
+# For whole list of screening,
+# one can use the following.
+# List for Selection
+# This is for Navbar 1 and we store tickers here.
+my_autocomplete_list <- c(
+  # All Indices
+  "SPY", "DIA", "QQQ", "IWM", "GLD", "XLB", "XLE", "XLK", "XLU", "XLI", "XLP", "XLY",
+  "EWC", "EWG", "EWJ", "EWZ", "FEZ", "FXI", "GDX", "GLD", "IBB", "INDA", "IVV", "SPXL", "TLT", "TQQQ",
+  "XBI", "ITA", "IYZ", "HACK", "KRE", "MOO", "SOCL", "XHB", "IAK",
+  # DJIA
+  "AXP", "AAPL", "BA", "CVX", "CSCO",
+  "DIS", "XOM", "GE", "GS", "HD", "IBM", "INTC",
+  "JNJ", "JPM", "MCD", "MRK", "MSFT", "NKE",
+  "PFE", "PG", "UTX", "UNH",
+  "V", "WMT",
+  # QQQ
+  "QQQ", "AAPL", "AMZN", "MSFT",
+  "FB", "GOOGL", "INTC", "CSCO",
+  "NFLX", "NVDA", "CMCSA", "AMGN", "ADBE",
+  "TXN",
+  # XLF
+  "XLF", "JPM", "BAC", "WFC",
+  "USB", "GS", "AXP", "MS", "PNC",
+  "BLK", "SCHW", "BK", "AIG",
+  # XLI
+  "XLI", "BA", "GE", "MMM",
+  "UNP", "HON", "UTX", "CAT", "LMT",
+  "UPS", "FDX", "CSX", "RTN",
+  # XLP
+  "XLP", "PG", "KO", "PEP",
+  "PM", "WMT", "COST", "MO", "MDLZ",
+  "CL", "WBA", "KHC", "STZ",
+  # XLU
+  "XLU", "NEE", "DUK",
+  "SO", "D", "EXC", "AEP",
+  "SRE", "PEG", "ED", "XEL",
+  "PCG", "EIX",
+  # XLV
+  "XLV", "JNJ", "UNH", "PFE",
+  "MRK", "ABBV", "AMGN", "MDT", "ABT",
+  "GILD", "BMY", "LLY",
+  "BIIB", "CVS",
+  # SEMI-CONDUCTOR
+  "NVDA", "AMD", "AVGO",
+  "IDTI", "MCHP", "MXIM", "TXN", "ADI",
+  "XLNX", "MU")
+tickers <- my_autocomplete_list
+Screener <- YinsCapital::AI_Screener(tickers, threshold = 0.03)
+
+# Comment:
+# The above code will go through all stocks in the list and 
+# generate a list with predicted returns for a probability.
+
 ####################### FUNDAMENTALS #######################
 
 YinsCapital::Fin_Report_IS_Plot(
