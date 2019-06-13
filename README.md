@@ -147,6 +147,7 @@ YinsCapital::RNN_Daily(ticker)
 
 AI_Prediction = YinsCapital::AI_Predictor("AAPL", 0.03)
 AI_Prediction$Candidates_Recommendation; AI_Prediction$Conclusion
+Screener <- YinsCapital::AI_Screener(c("AAPL","FB","MSFT"), 0.03); Screener$Final_Data
 
 ####################### FUNDAMENTALS #######################
 
