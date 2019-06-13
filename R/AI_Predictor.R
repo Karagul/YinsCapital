@@ -144,6 +144,13 @@ AI_Predictor <- function(
     iRF_Result = list(
       Prediction.Table = iRF_Result$Prediction.Table,
       AUC = iRF_Result$AUC),
+    Candidates_Recommendation = data.frame(
+      Name = c("GBM", "BAG", "RF", "iRF"),
+      Probability = c(
+        GBM_Result$Test.Y.Hat[length(GBM_Result$Test.Y.Hat)],
+        Bagging_Result$test.y.hat[length(Bagging_Result$test.y.hat)],
+        as.numeric(RF_Result$test.y.hat[length(RF_Result$test.y.hat)]),
+        iRF_Result$Truth.vs.Predicted.Probabilities[nrow(iRF_Result$Truth.vs.Predicted.Probabilities), 2])),
     Conclusion = paste0(
       "Entered ticker goes up today with probability: ",
       round(mean(c(
