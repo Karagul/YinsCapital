@@ -143,6 +143,11 @@ YinsCapital::ARMA_Fit_A(ticker, 10)
 
 YinsCapital::RNN_Daily(ticker)
 
+####################### OTHER TIME-SERIES AI TECHNIQUES #######################
+
+AI_Prediction = YinsCapital::AI_Predictor("AAPL", 0.03)
+AI_Prediction$Candidates_Recommendation; AI_Prediction$Conclusion
+
 ####################### FUNDAMENTALS #######################
 
 YinsCapital::Fin_Report_IS_Plot(
