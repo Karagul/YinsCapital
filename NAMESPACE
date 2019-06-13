@@ -1,4 +1,5 @@
 # Function
+export(AI_Predictor)
 export(AllIndice_Slider_Viz)
 export(AllIndice_3D_Viz)
 export(ARMA_Fit_A)
